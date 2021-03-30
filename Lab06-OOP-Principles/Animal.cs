@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace Lab06_OOP_Principles
 {
-    class Class1
+    public abstract class Animal
     {
+        public int age { get; set; }
+
+        public abstract string Eat();
+
+        public abstract bool Nocturnal { get; }
+
+        public abstract string Sound();
+
+        public abstract string Reproduce();
+
     }
 }

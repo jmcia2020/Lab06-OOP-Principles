@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab06_OOP_Principles
 {
-    class Robin
+    class Robin: Bird
     {
     }
 }

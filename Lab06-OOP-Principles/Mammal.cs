@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Lab06_OOP_Principles
 {
-    class Mammal
+    public abstract class Mammal: Animal
     {
+
     }
 }

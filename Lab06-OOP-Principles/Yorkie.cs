@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Lab06_OOP_Principles
 {
-    class Class1
+    public virtual class Yorkie : Dog
     {
+    
     }
 }

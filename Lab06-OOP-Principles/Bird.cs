@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Lab06_OOP_Principles
 {
-    class Bird
+    public abstract class Bird: Animal
     {
+        public abstract bool Flies { get; }
     }
 }

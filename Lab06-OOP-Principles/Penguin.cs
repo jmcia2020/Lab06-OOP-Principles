@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Lab06_OOP_Principles
 {
-    class Penguin
+    class Penguin: Bird
     {
+        public override bool Flies { get { return false; } }
     }
 }
