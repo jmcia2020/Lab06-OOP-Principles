@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Lab06_OOP_Principles
 {
-    interface Interface1
+    public interface IAquatic
     {
+        bool Swims();
     }
 }
